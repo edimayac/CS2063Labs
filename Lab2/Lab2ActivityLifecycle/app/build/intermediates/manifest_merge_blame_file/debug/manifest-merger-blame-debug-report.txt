@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="mobiledev.unb.ca.lab2activitylifecycle"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="mobiledev.unb.ca.lab2activitylifecycle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="mobiledev.unb.ca.lab2activitylifecycle.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:5:5-20:19
+18        android:allowBackup="true"
+18-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/cf4769d059948c405a29a85b6570a05c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:8:9-41
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:9:9-40
+25        <activity
+25-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:10:9-18:20
+26            android:name="mobiledev.unb.ca.lab2activitylifecycle.ActivityOne"
+26-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:11:13-40
+27            android:exported="true" >
+27-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:12:13-36
+28            <intent-filter>
+28-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:13:13-17:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:14:17-69
+29-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:14:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:16:17-77
+31-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:16:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity android:name="mobiledev.unb.ca.lab2activitylifecycle.ActivityTwo" />
+34-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:19:9-59
+34-->/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/src/main/AndroidManifest.xml:19:19-46
+35
+36        <provider
+36-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+37            android:name="androidx.startup.InitializationProvider"
+37-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+38            android:authorities="mobiledev.unb.ca.lab2activitylifecycle.androidx-startup"
+38-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+39            android:exported="false" >
+39-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+40            <meta-data
+40-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+42                android:value="androidx.startup" />
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/edisondimayacyac/.gradle/caches/transforms-3/1d7adcf56416c7779194ac65b19b95a8/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+43            <meta-data
+43-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/edisondimayacyac/.gradle/caches/transforms-3/ef923889211e9a1699c9a8dafe338707/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/edisondimayacyac/.gradle/caches/transforms-3/ef923889211e9a1699c9a8dafe338707/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+45                android:value="androidx.startup" />
+45-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/edisondimayacyac/.gradle/caches/transforms-3/ef923889211e9a1699c9a8dafe338707/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+46        </provider>
+47    </application>
+48
+49</manifest>

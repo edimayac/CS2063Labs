@@ -1,0 +1,10 @@
+#Thu Sep 15 14:14:31 ADT 2022
+base.2=/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
+path.2=10/classes.dex
+base.1=/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.1=0/classes.dex
+base.0=/Users/edisondimayacyac/StudioProjects/cs2063-fall-2022-labs/Lab2/Lab2ActivityLifecycle/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/layout_activity_two.xml.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/layout/activity_two.xml"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/layout_activity_one.xml.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/layout/activity_one.xml"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/menu_menu_activity_one.xml.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/menu/menu_activity_one.xml"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mobiledev.unb.ca.lab2activitylifecycle.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "mobiledev.unb.ca.lab2activitylifecycle.app-main-31:/mipmap-hdpi/ic_launcher.png"
+    }
+]
